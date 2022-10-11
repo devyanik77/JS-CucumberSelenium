@@ -1,0 +1,19 @@
+{
+  "name": "js-cucumber-selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features/searchIndia.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "selenium-webdriver": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6"
+  }
+}
